@@ -1,0 +1,63 @@
+@import url('https://fonts.google.com/specimen/DM+Serif+Display')
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+
+: root {
+    --primary-color: #336699;
+    --secondary-color: #66cc99;
+    --accent-color: #ff9933;
+    --additional-accent-color: #cc3366;
+    --heading-font: 'https://fonts.google.com/specimen/Libre+Baskerville', sans-serif;
+    --paragraph-font:'https://fonts.google.com/specimen/Roboto', sans-serif;
+    --navigation-bg-color: #333;
+    --navigation-link-color: #fff;
+    --navigation-hover-link-color: #66cc99;
+    --navigation-hover-bg-color: #fff;
+}
+
+
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+
+header {
+    padding: 20px;
+    background-color: var(--accent1-color);
+}
+
+
+p {
+    padding: 25px;
+}
+
+
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:link, nav a visited {
+    color: var(--nav-link-color);
+}
+
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
